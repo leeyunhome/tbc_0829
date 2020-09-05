@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_4 program for input outpu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_6 overflow of integer", "3_6 overflow of integer\3_6 overflow of integer.vcxproj", "{0195B4DC-A079-4F16-AE88-B7DB66EFB108}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_7 various integer types", "3_7 various integer types\3_7 various integer types.vcxproj", "{1179C215-1358-4F06-BF97-0925012DE076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0195B4DC-A079-4F16-AE88-B7DB66EFB108}.Release|x64.Build.0 = Release|x64
 		{0195B4DC-A079-4F16-AE88-B7DB66EFB108}.Release|x86.ActiveCfg = Release|Win32
 		{0195B4DC-A079-4F16-AE88-B7DB66EFB108}.Release|x86.Build.0 = Release|Win32
+		{1179C215-1358-4F06-BF97-0925012DE076}.Debug|x64.ActiveCfg = Debug|x64
+		{1179C215-1358-4F06-BF97-0925012DE076}.Debug|x64.Build.0 = Debug|x64
+		{1179C215-1358-4F06-BF97-0925012DE076}.Debug|x86.ActiveCfg = Debug|Win32
+		{1179C215-1358-4F06-BF97-0925012DE076}.Debug|x86.Build.0 = Debug|Win32
+		{1179C215-1358-4F06-BF97-0925012DE076}.Release|x64.ActiveCfg = Release|x64
+		{1179C215-1358-4F06-BF97-0925012DE076}.Release|x64.Build.0 = Release|x64
+		{1179C215-1358-4F06-BF97-0925012DE076}.Release|x86.ActiveCfg = Release|Win32
+		{1179C215-1358-4F06-BF97-0925012DE076}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

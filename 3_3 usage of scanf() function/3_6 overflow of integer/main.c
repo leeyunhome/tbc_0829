@@ -5,7 +5,7 @@
 int main()
 {
 	unsigned int u_max = 0 - 1;
-	signed int i_min = INT_MAX + 1;
+	signed int i_min = INT_MAX + 3;
 	// 0000 - 1 = 1111
 
 	//printf("%u", u_max);
