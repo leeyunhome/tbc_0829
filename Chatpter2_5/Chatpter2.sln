@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_6 printf function", "2_6 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 usage of comment", "2.7 usage of comment\2.7 usage of comment.vcxproj", "{94D664BB-7EE0-4268-856E-DA8A67D61CFC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.8 keyword_and_reserved", "2.8 keyword_and_reserved\2.8 keyword_and_reserved.vcxproj", "{77B535BC-2788-4554-A2C4-55CF4A268789}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{94D664BB-7EE0-4268-856E-DA8A67D61CFC}.Release|x64.Build.0 = Release|x64
 		{94D664BB-7EE0-4268-856E-DA8A67D61CFC}.Release|x86.ActiveCfg = Release|Win32
 		{94D664BB-7EE0-4268-856E-DA8A67D61CFC}.Release|x86.Build.0 = Release|Win32
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Debug|x64.ActiveCfg = Debug|x64
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Debug|x64.Build.0 = Debug|x64
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Debug|x86.ActiveCfg = Debug|Win32
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Debug|x86.Build.0 = Debug|Win32
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Release|x64.ActiveCfg = Release|x64
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Release|x64.Build.0 = Release|x64
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Release|x86.ActiveCfg = Release|Win32
+		{77B535BC-2788-4554-A2C4-55CF4A268789}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
