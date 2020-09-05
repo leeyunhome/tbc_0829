@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_9 making function", "2_9 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_10 usage of debugger", "2_10 usage of debugger\2_10 usage of debugger.vcxproj", "{31E84165-8F41-4AF9-B035-29219544645F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.11 syntax error and sementic error", "2.11 syntax error and sementic error\2.11 syntax error and sementic error.vcxproj", "{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{31E84165-8F41-4AF9-B035-29219544645F}.Release|x64.Build.0 = Release|x64
 		{31E84165-8F41-4AF9-B035-29219544645F}.Release|x86.ActiveCfg = Release|Win32
 		{31E84165-8F41-4AF9-B035-29219544645F}.Release|x86.Build.0 = Release|Win32
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Debug|x64.ActiveCfg = Debug|x64
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Debug|x64.Build.0 = Debug|x64
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Debug|x86.Build.0 = Debug|Win32
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Release|x64.ActiveCfg = Release|x64
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Release|x64.Build.0 = Release|x64
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Release|x86.ActiveCfg = Release|Win32
+		{1E84C33E-4A23-47AE-8C6E-93CEC58045A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
