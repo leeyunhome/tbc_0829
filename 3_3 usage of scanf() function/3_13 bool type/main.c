@@ -16,5 +16,6 @@ int main()
 	b3 = false;
 
 	printf("%d %d\n", b2, b3);
+
 	return 0;
 }
