@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0d1e2d52-6b37-48b3-8f20-6a87ab392794}</ProjectGuid>
-    <RootNamespace>Chapter4</RootNamespace>
+    <ProjectGuid>{ae4a4008-4b1e-4cae-b4cf-8c89e1dbee3e}</ProjectGuid>
+    <RootNamespace>_4_2_sizeof_operator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Chapter4_2</ProjectName>
+    <ProjectName>4_2 sizeof operator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

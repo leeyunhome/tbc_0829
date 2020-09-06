@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4", "Chapter4\Chapter4.vcxproj", "{0D1E2D52-6B37-48B3-8F20-6A87AB392794}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4_2", "Chapter4\Chapter4.vcxproj", "{0D1E2D52-6B37-48B3-8F20-6A87AB392794}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_2 sizeof operator", "4_2 sizeof operator\4_2 sizeof operator.vcxproj", "{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{0D1E2D52-6B37-48B3-8F20-6A87AB392794}.Release|x64.Build.0 = Release|x64
 		{0D1E2D52-6B37-48B3-8F20-6A87AB392794}.Release|x86.ActiveCfg = Release|Win32
 		{0D1E2D52-6B37-48B3-8F20-6A87AB392794}.Release|x86.Build.0 = Release|Win32
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Debug|x64.ActiveCfg = Debug|x64
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Debug|x64.Build.0 = Debug|x64
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Debug|x86.Build.0 = Debug|Win32
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x64.ActiveCfg = Release|x64
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x64.Build.0 = Release|x64
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x86.ActiveCfg = Release|Win32
+		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
