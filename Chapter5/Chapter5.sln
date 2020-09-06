@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter5_1", "Chapter5\Chap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_3 plus, minus, sign operators", "5_3 plus, minus, sign operators\5_3 plus, minus, sign operators.vcxproj", "{311037F8-BC42-4708-AE15-E5C26A2E0E13}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_4 multiply operator", "5_4 multiply operator\5_4 multiply operator.vcxproj", "{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{311037F8-BC42-4708-AE15-E5C26A2E0E13}.Release|x64.Build.0 = Release|x64
 		{311037F8-BC42-4708-AE15-E5C26A2E0E13}.Release|x86.ActiveCfg = Release|Win32
 		{311037F8-BC42-4708-AE15-E5C26A2E0E13}.Release|x86.Build.0 = Release|Win32
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Debug|x64.ActiveCfg = Debug|x64
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Debug|x64.Build.0 = Debug|x64
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Debug|x86.Build.0 = Debug|Win32
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Release|x64.ActiveCfg = Release|x64
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Release|x64.Build.0 = Release|x64
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Release|x86.ActiveCfg = Release|Win32
+		{2A389FAE-D9F9-4674-B560-2E6AEB9A068C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
