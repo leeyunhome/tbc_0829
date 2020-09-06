@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4_2", "Chapter4\Chap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_2 sizeof operator", "4_2 sizeof operator\4_2 sizeof operator.vcxproj", "{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_3 문자열이 메모리에 저장되는 구조", "4_3 문자열이 메모리에 저장되는 구조\4_3 문자열이 메모리에 저장되는 구조.vcxproj", "{94425D1E-8EE7-496C-8766-747B5B43923C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x64.Build.0 = Release|x64
 		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x86.ActiveCfg = Release|Win32
 		{AE4A4008-4B1E-4CAE-B4CF-8C89E1DBEE3E}.Release|x86.Build.0 = Release|Win32
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Debug|x64.ActiveCfg = Debug|x64
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Debug|x64.Build.0 = Debug|x64
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Debug|x86.ActiveCfg = Debug|Win32
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Debug|x86.Build.0 = Debug|Win32
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Release|x64.ActiveCfg = Release|x64
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Release|x64.Build.0 = Release|x64
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Release|x86.ActiveCfg = Release|Win32
+		{94425D1E-8EE7-496C-8766-747B5B43923C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
