@@ -36,7 +36,8 @@ int main()
 	{
 		fund = fund + fund * annual_interest / 100.0;
 		year_count = year_count + 1;
-		printf("Year %d, fund %f\n", year_count, fund);
+		//printf("Year %d, fund %f\n", year_count, fund);
+		printf("%f\n", fund);
 	}
 
 	printf("I takes %dyears\n", year_count);
