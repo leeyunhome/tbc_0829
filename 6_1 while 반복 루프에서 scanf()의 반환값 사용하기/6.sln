@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_8 introduction to for loo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_9 for는 유연해요", "6_9 for는 유연해요\6_9 for는 유연해요.vcxproj", "{499E1889-310E-475B-8FE0-35E17D3EFD77}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_10 다양한 대입 연산자들 (그리고 어셈블리 코드 확인법)", "6_10 다양한 대입 연산자들 (그리고 어셈블리 코드 확인법)\6_10 다양한 대입 연산자들 (그리고 어셈블리 코드 확인법).vcxproj", "{7986DBB9-A358-49D9-ABD5-5A64B8920325}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{499E1889-310E-475B-8FE0-35E17D3EFD77}.Release|x64.Build.0 = Release|x64
 		{499E1889-310E-475B-8FE0-35E17D3EFD77}.Release|x86.ActiveCfg = Release|Win32
 		{499E1889-310E-475B-8FE0-35E17D3EFD77}.Release|x86.Build.0 = Release|Win32
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Debug|x64.ActiveCfg = Debug|x64
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Debug|x64.Build.0 = Debug|x64
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Debug|x86.ActiveCfg = Debug|Win32
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Debug|x86.Build.0 = Debug|Win32
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Release|x64.ActiveCfg = Release|x64
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Release|x64.Build.0 = Release|x64
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Release|x86.ActiveCfg = Release|Win32
+		{7986DBB9-A358-49D9-ABD5-5A64B8920325}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
