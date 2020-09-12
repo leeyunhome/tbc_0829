@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_1 while 반복 루프에�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_3 Entry point whle", "6_3 Entry point whle\6_3 Entry point whle.vcxproj", "{786536F2-CDDE-4487-8E5C-1370FEE83D06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_4 relational operator", "6_4 relational operator\6_4 relational operator.vcxproj", "{49CD9535-F9AC-4753-81AF-FFC18CF1D357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{786536F2-CDDE-4487-8E5C-1370FEE83D06}.Release|x64.Build.0 = Release|x64
 		{786536F2-CDDE-4487-8E5C-1370FEE83D06}.Release|x86.ActiveCfg = Release|Win32
 		{786536F2-CDDE-4487-8E5C-1370FEE83D06}.Release|x86.Build.0 = Release|Win32
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Debug|x64.ActiveCfg = Debug|x64
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Debug|x64.Build.0 = Debug|x64
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Debug|x86.ActiveCfg = Debug|Win32
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Debug|x86.Build.0 = Debug|Win32
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Release|x64.ActiveCfg = Release|x64
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Release|x64.Build.0 = Release|x64
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Release|x86.ActiveCfg = Release|Win32
+		{49CD9535-F9AC-4753-81AF-FFC18CF1D357}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
