@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 사실과 거짓", "6.5
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_6 _Bool datatype", "6_6 _Bool datatype\6_6 _Bool datatype.vcxproj", "{DA3537DA-967F-4EFE-97F6-E8778E607256}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_7 precedence of relational operators", "6_7 precedence of relational operators\6_7 precedence of relational operators.vcxproj", "{F8D3C40E-0C43-4145-883F-2F51E0DDE841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{DA3537DA-967F-4EFE-97F6-E8778E607256}.Release|x64.Build.0 = Release|x64
 		{DA3537DA-967F-4EFE-97F6-E8778E607256}.Release|x86.ActiveCfg = Release|Win32
 		{DA3537DA-967F-4EFE-97F6-E8778E607256}.Release|x86.Build.0 = Release|Win32
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Debug|x64.ActiveCfg = Debug|x64
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Debug|x64.Build.0 = Debug|x64
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Debug|x86.Build.0 = Debug|Win32
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Release|x64.ActiveCfg = Release|x64
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Release|x64.Build.0 = Release|x64
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Release|x86.ActiveCfg = Release|Win32
+		{F8D3C40E-0C43-4145-883F-2F51E0DDE841}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
