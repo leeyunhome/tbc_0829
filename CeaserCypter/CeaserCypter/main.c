@@ -1,53 +1,61 @@
 #include <stdio.h>
 
-#define MAX_LEN 31
+#define MAX_LEN 255
 
 int main()
 {
-	char ch[31] = { 0, 0 };
+	char input_string[MAX_LEN];
+	char encrypted_string[MAX_LEN];
 
-	scanf("%s", ch);
-
-	for (int i = 0; i < strlen(ch); ++i)
+	int flag = scanf("%s", input_string);
+	if (flag != 1)
 	{
-		ch[i] = ch[i] + 3;
-		if (ch[i] > 90)
+		printf("Wrong input. try again.\n");
+	}
+	for (int i = 0; i < MAX_LEN; ++i)
+	{
+		char c = input_string[i];
+		encrypted_string[i] = c;
+
+		if (c == '\0')
 		{
-			ch[i] = 65;
+			break;
 		}
 
+		int ascii = (int)c; // casting char to int
+
+		int ascii_en = ascii - 3;
+		if (ascii_en < 65)
+		{
+			ascii_en = ascii_en + 26;
+		}
+		char c_en = (char)ascii_en;
+
+		encrypted_string[i] = c_en;
+		//printf("%c", c_en);
 	}
 
-	printf("%s\n", ch);
-	//char ch;
-	//char en;
-	//while (1)
-	//{
-	//	int flag = scanf("%c", &ch);
-	//	if (flag != 1)
-	//	{
-	//		printf("Wrong input.\n");
-	//	}
+	printf("%s\n", encrypted_string);
+	for (int i = 0; i < MAX_LEN; ++i)
+	{
+		char c = encrypted_string[i];
 
-	//	for (int i = 0; i < 3; ++i)
-	//	{
-	//		en = ch + 3;
-	//	}
-	//	for (int i = 0; i < 3; ++i)
-	//	{
-	//		printf("%c", en);
-	//	}
-	//	printf("\n");
+		if (c == '\0')
+		{
+			break;
+		}
 
-	//	if (ch == '\n')
-	//	{
-	//		break;
-	//	}
-	//		
-	//}
-	//
-	//
-	//printf("%c", ch);
+		int ascii = (int)c; // casting char to int
+
+		int ascii_de = ascii + 3;
+		if (ascii_de > 90)
+		{
+			ascii_de = ascii_de - 26;
+		}
+		char c_de = (char)ascii_de;
+
+		printf("%c", c_de);
+	}
 
 	return 0;
 }
