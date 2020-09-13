@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_16 배열과 런타임 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_17 for 루프를 배열과 함께 사용하기", "6_17 for 루프를 배열과 함께 사용하기\6_17 for 루프를 배열과 함께 사용하기.vcxproj", "{75D332E0-4202-48FA-86BE-1C2C32C55EE1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_18 루프 안에서 함수의 반환값 사용하기", "6_18 루프 안에서 함수의 반환값 사용하기\6_18 루프 안에서 함수의 반환값 사용하기.vcxproj", "{801DF26A-9E56-4974-97F2-044D55484E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{75D332E0-4202-48FA-86BE-1C2C32C55EE1}.Release|x64.Build.0 = Release|x64
 		{75D332E0-4202-48FA-86BE-1C2C32C55EE1}.Release|x86.ActiveCfg = Release|Win32
 		{75D332E0-4202-48FA-86BE-1C2C32C55EE1}.Release|x86.Build.0 = Release|Win32
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Debug|x64.ActiveCfg = Debug|x64
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Debug|x64.Build.0 = Debug|x64
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Debug|x86.ActiveCfg = Debug|Win32
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Debug|x86.Build.0 = Debug|Win32
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Release|x64.ActiveCfg = Release|x64
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Release|x64.Build.0 = Release|x64
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Release|x86.ActiveCfg = Release|Win32
+		{801DF26A-9E56-4974-97F2-044D55484E96}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
