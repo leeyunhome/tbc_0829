@@ -2,10 +2,10 @@
 #include <Windows.h>
 #include "MyHeader.h"
 
-#define NUM_KEYS 3
+#define NUM_KEYS 4
 
-char key_list[] = { 'a', 's', 'd' };
-float frequency_list[] = { 261.626 , 293.665, 329.628 };
+char key_list[] = { 'a', 's', 'd', 'f' };
+float frequency_list[] = { 261.626 , 293.665, 329.628, 349.228 };
 
 float getFrequencyFromKey(char key);
 void playSound(void);
@@ -23,7 +23,7 @@ void playSound(void)
 {
 	char ch = 0;
 
-	ch = getchar();
+	ch = getch();
 	Beep(getFrequencyFromKey(ch), 500);
 
 	//for (int idx = 0; idx < NUM_KEYS; ++idx)
@@ -47,6 +47,8 @@ void playSound(void)
 	//default:
 	//	break;
 	//}
+
+	return;
 }
 float getFrequencyFromKey(char key)
 {
@@ -54,7 +56,10 @@ float getFrequencyFromKey(char key)
 	{
 		if (key_list[idx] == key)
 		{
-			Beep(frequency_list[idx], 500);
+			return frequency_list[idx];
 		}
 	}
+
+	return 0.0f;
 }
+
