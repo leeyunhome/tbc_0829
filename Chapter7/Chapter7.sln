@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.4 다중 선택 else if",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_5 else와 if 짝짓기", "7_5 else와 if 짝짓기\7_5 else와 if 짝짓기.vcxproj", "{4AEFB9CD-7140-45DD-85CB-624777DF6CF4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_6 소수 판단 예제", "7_6 소수 판단 예제\7_6 소수 판단 예제.vcxproj", "{A8120D72-D901-4410-B2BA-4EFD7C5731ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_7 논리 연산자 Logical operators", "7_7 논리 연산자 Logical operators\7_7 논리 연산자 Logical operators.vcxproj", "{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +65,22 @@ Global
 		{4AEFB9CD-7140-45DD-85CB-624777DF6CF4}.Release|x64.Build.0 = Release|x64
 		{4AEFB9CD-7140-45DD-85CB-624777DF6CF4}.Release|x86.ActiveCfg = Release|Win32
 		{4AEFB9CD-7140-45DD-85CB-624777DF6CF4}.Release|x86.Build.0 = Release|Win32
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Debug|x64.ActiveCfg = Debug|x64
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Debug|x64.Build.0 = Debug|x64
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Debug|x86.Build.0 = Debug|Win32
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Release|x64.ActiveCfg = Release|x64
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Release|x64.Build.0 = Release|x64
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Release|x86.ActiveCfg = Release|Win32
+		{A8120D72-D901-4410-B2BA-4EFD7C5731ED}.Release|x86.Build.0 = Release|Win32
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Debug|x64.ActiveCfg = Debug|x64
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Debug|x64.Build.0 = Debug|x64
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Debug|x86.Build.0 = Debug|Win32
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Release|x64.ActiveCfg = Release|x64
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Release|x64.Build.0 = Release|x64
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Release|x86.ActiveCfg = Release|Win32
+		{1C02B1B8-4969-4C77-8BD5-46C8336AC41F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
