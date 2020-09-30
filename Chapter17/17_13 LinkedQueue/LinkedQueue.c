@@ -42,11 +42,30 @@ bool EnQueue(Item item, Queue* pq)
 	}
 	else
 	{
-		pq->front = (Node*)malloc(sizeof(Node));
-		pq->rear = (Node*)malloc(sizeof(Node));
-		pq->front->next = pq->rear;
-		pq->rear->item = item;
+		// make a new node
+		Node* pnew;
+		pnew = (Node*)malloc(sizeof(Node));
+		if (pnew == NULL)
+		{
+			printf("Malloc() faile.\n");
+			return false;
+		}
+		CopyToNode(item, pnew);
+		pnew->next = NULL;
+
+		// add new node at the end
+		if (QueueIsEmpty(pq))
+			pq->front = pnew;
+		else
+			pq->rear->next = pnew;
+		pq->rear = pnew;
 		pq->n_items++;
+
+		/* Array implementation */
+		//pq->rear = (pq->rear + 1) % MAXSIZE; // Use % for circular queue
+		//pq->items[pq->rear] = item;
+		//pq->size++;
+
 		return true;
 	}
 }
@@ -59,11 +78,45 @@ bool DeQueue(Item* pitem, Queue* pq)
 	}
 	else
 	{
-		*pitem = pq->front->item;
+		Node* pn;
+		CopyToItem(pq->front, pitem);
+		pn = pq->front;
+		pq->front = pq->front->next;//next may be NULL
+		free(pn);
 		pq->n_items--;
+		if (pq->n_items == 0)
+			pq->rear = NULL;
+
+		/* Array implementation */
+		//pq->front = (pq->front + 1) % MAXSIZE;	// Use % circular queue
+		//*pitem = pq->items[pq->front];
+		//pq->size--;
 
 		return true;
 	}
 }
-void EmptyTheQueue(Queue* pq);
-void TraverseQueue(Queue* pq, void (*func)(Item item));
+
+void EmptyTheQueue(Queue* pq)
+{
+	Item temp;
+	while (!QueueIsEmpty(pq))
+		DeQueue(&temp, pq);
+
+	/* Array implementation */
+	//InitializeQueue(pq);
+}
+
+void TraverseQueue(Queue* pq, void (*func)(Item item))
+{
+	Node* temp = pq->front;
+	while (temp != NULL)
+	{
+		(*func)(temp->item);
+		temp = temp->next;
+	}
+
+	/* Array implementation */
+	/*for (int i = pq->front; i != pq->rear; i = (i + 1) % MAXSIZE)
+		(*func)(pq->n_items[(i + 1) % MAXSIZE]);*/
+	//Note: be careful with conditions
+}
