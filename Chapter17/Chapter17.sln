@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Selection Sort", "Selection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_12 배열로 원형 큐 구현하기", "17_12 배열로 원형 큐 구현하기\17_12 배열로 원형 큐 구현하기.vcxproj", "{F5815816-0087-44CF-B5AF-8A67BB435B62}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_13 LinkedQueue", "17_13 LinkedQueue\17_13 LinkedQueue.vcxproj", "{CA3174C2-9EAB-4749-987E-B6D4D8905151}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{F5815816-0087-44CF-B5AF-8A67BB435B62}.Release|x64.Build.0 = Release|x64
 		{F5815816-0087-44CF-B5AF-8A67BB435B62}.Release|x86.ActiveCfg = Release|Win32
 		{F5815816-0087-44CF-B5AF-8A67BB435B62}.Release|x86.Build.0 = Release|Win32
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Debug|x64.ActiveCfg = Debug|x64
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Debug|x64.Build.0 = Debug|x64
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Debug|x86.Build.0 = Debug|Win32
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Release|x64.ActiveCfg = Release|x64
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Release|x64.Build.0 = Release|x64
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Release|x86.ActiveCfg = Release|Win32
+		{CA3174C2-9EAB-4749-987E-B6D4D8905151}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
