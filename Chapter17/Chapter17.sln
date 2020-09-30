@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_13 LinkedQueue", "17_13 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_14 큐를 이용한 시뮬레이션", "17_14 큐를 이용한 시뮬레이션\17_14 큐를 이용한 시뮬레이션.vcxproj", "{123EB6F2-2547-4D32-AA66-24CB4B290215}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_15 이진 탐색", "17_15 이진 탐색\17_15 이진 탐색.vcxproj", "{82DE83A8-A246-4690-A3BA-421F2CE8A592}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{123EB6F2-2547-4D32-AA66-24CB4B290215}.Release|x64.Build.0 = Release|x64
 		{123EB6F2-2547-4D32-AA66-24CB4B290215}.Release|x86.ActiveCfg = Release|Win32
 		{123EB6F2-2547-4D32-AA66-24CB4B290215}.Release|x86.Build.0 = Release|Win32
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Debug|x64.ActiveCfg = Debug|x64
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Debug|x64.Build.0 = Debug|x64
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Debug|x86.ActiveCfg = Debug|Win32
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Debug|x86.Build.0 = Debug|Win32
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Release|x64.ActiveCfg = Release|x64
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Release|x64.Build.0 = Release|x64
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Release|x86.ActiveCfg = Release|Win32
+		{82DE83A8-A246-4690-A3BA-421F2CE8A592}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
