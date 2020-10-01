@@ -105,35 +105,45 @@ const Item* binary_search(const Item items[], const int size, const char name[TM
 {
 	int first = 0;
 	int last  = size - 1;
-	int middle = 0;
-	//int middle = (int)((first + last) * 0.5);
+	int middle = (int)((first + last) * 0.5);
 
-	for (int i = first; i < last; ++i)
+	while (first <= last)
 	{
-		middle = (int)((first + last) * 0.5);
+		int comp = strcmp(items[middle].character, name);
 
-		printf("middle : %d\n", middle);
-		printf("first : %d\n", first);
-		printf("last : %d\n", last);
-		if (strcmp(items[middle].character, name) == 1)
-		{
-			last = middle - 1;
-		}
-		else if (strcmp(items[middle].character, name) == -1)
+		if (comp < 0)
 		{
 			first = middle + 1;
 		}
-		else if (strcmp(items[middle].character, name) == 0)
+		else if (comp == 0)
+		{
 			return &items[middle];
-
+		}
+		else
+		{
+			last = middle - 1;
+		}
+		middle = (int)((first + last) * 0.5);
 
 	}
+	/*for (int i = first; i <= last; ++i)
+	{
+		int comp = strcmp(items[middle].character, name);
+		middle = (int)((first + last) * 0.5);
 
-	//for (int i = first; i < last; ++i)
-	//	if (strcmp(items[middle].character, name) == 0)
-	//	{
-	//		return &items[middle];
-	//	}
+		if (comp < 0)
+		{
+			first = middle + 1;
+		}
+		else if (comp == 0)
+		{
+			return &items[middle];
+		}
+		else
+		{
+			last = middle - 1;
+		}
+	}*/
 
 	return NULL;
 }
