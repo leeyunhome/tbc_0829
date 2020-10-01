@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_17 이진 탐색 트리 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_9 Stack", "17_9 Stack\17_9 Stack.vcxproj", "{5400F57A-F57E-44AB-8E44-6F7AC015D871}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_10 스택 연습문제 플러드 필 알고리즘", "17_10 스택 연습문제 플러드 필 알고리즘\17_10 스택 연습문제 플러드 필 알고리즘.vcxproj", "{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{5400F57A-F57E-44AB-8E44-6F7AC015D871}.Release|x64.Build.0 = Release|x64
 		{5400F57A-F57E-44AB-8E44-6F7AC015D871}.Release|x86.ActiveCfg = Release|Win32
 		{5400F57A-F57E-44AB-8E44-6F7AC015D871}.Release|x86.Build.0 = Release|Win32
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Debug|x64.ActiveCfg = Debug|x64
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Debug|x64.Build.0 = Debug|x64
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Debug|x86.Build.0 = Debug|Win32
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Release|x64.ActiveCfg = Release|x64
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Release|x64.Build.0 = Release|x64
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Release|x86.ActiveCfg = Release|Win32
+		{9D779C4E-1333-4CCB-B3E8-B5529B1B883C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
