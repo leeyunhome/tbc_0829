@@ -27,7 +27,7 @@ void print_map()
 	printf("\n");
 }
 
-element get_element(int i, int j)
+element get_element(const int i,const int j)
 {
 	element new_element;
 	new_element.i = i;
@@ -91,6 +91,12 @@ int main()
 
 		map[cell.j][cell.i] = 1; // tag full
 
+		if (cell.i - 1 >= 0 && map[cell.j][cell.i - 1] == 0)// left
+			Push(&to_visit, get_element(cell.i - 1, cell.j));
+
+		if (cell.i + 1 < WIDTH && map[cell.j][cell.i + 1] == 0)// right
+			Push(&to_visit, get_element(cell.i + 1, cell.j));
+
 		if (cell.j - 1 >= 0 && map[cell.j - 1][cell.i] == 0) // up
 			Push(&to_visit, get_element(cell.i, cell.j - 1));
 
@@ -98,11 +104,7 @@ int main()
 		if (cell.j + 1 < HEIGHT && map[cell.j + 1][cell.i] == 0) // down
 			Push(&to_visit, get_element(cell.i, cell.j + 1));
 
-		if (cell.i - 1 >= 0 && map[cell.j][cell.i - 1] == 0)// left
-			Push(&to_visit, get_element(cell.i - 1, cell.j));
-
-		if (cell.i + 1 < WIDTH && map[cell.i + 1] == 0)// right
-			Push(&to_visit, get_element(cell.i + 1, cell.j));
+		
 
 		// Debugging
 		system("cls");	// system("clear"); in linux
